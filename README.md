@@ -7,6 +7,7 @@ Used technologies:
  - Flask: Python web service framework
  - Twitter API: get stream real-time Twitter data
  - Google Map API: render google map and show Twitter location on Map
+ - HTML/JS/CSS/Ajax: Frontend
 
 ![demo_geo_search.png](doc/demo_geo_search.png?raw=true "GeoMapDemo")
 
