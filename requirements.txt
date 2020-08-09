@@ -1,0 +1,5 @@
+elasticsearch==7.8.1
+Flask==1.1.2
+tweepy==3.9.0
+requests==2.24.0
+PyYAML==5.3.1

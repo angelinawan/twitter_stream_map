@@ -1,0 +1,32 @@
+
+#map {
+    height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#search-form {
+    position: relative;
+    margin-top: 4px;
+    width: auto;
+    z-index: 1;
+}
+
+#distance-options {
+    position: relative;
+    margin-top: 4px;
+    width: auto;
+    z-index: 1;
+    padding: 14px 14px 14px 14px;
+    background: #ffffff;
+}
+
+#control-block {
+    position: absolute;
+    margin-left: 12px;
+}
+
+

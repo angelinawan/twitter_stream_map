@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/twitter.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADVvnA5fYL4ecja-sl3JC0JraDFaU2iRE&language=en&callback=initMap&"></script>
+
+    <script src="{{url_for('static', filename='js/twitter.js')}}"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="control-block">
+    <div id="search-form">
+        <form >
+            <input type="text" id="searchbox" placeholder="Key Words">
+        </form>
+    </div>
+
+    <div id="distance-options">
+        <div id="keywords" title="Use CTRL to select multiple tag">
+                <label for="radiusInput" title="Use CTRL to select multiple tag">Key Words List (Ctrl multiple selection)</label><br>
+                <select multiple class="selectpicker" id="keywords-selector" name="keywordsSelector" size=10 style='height: 100%;'>
+                    <option value="New York">New York</option>
+                    <option value="Trump">Trump</option>
+                    <option value="Immigration">Immigration</option>
+                    <option value="War">War</option>
+                    <option value="Health">Health</option>
+                    <option value="Canada">Canada</option>
+                    <option value="COVID-19">COVID-19</option>
+                    <option value="Storm">Storm</option>
+                </select>
+        </div>
+        <div>
+            <label for="radiusInput">Search Size</label>
+            <input type="number" value="200" min="0" id="size-input" name="radiusInput" autofocus="">
+        </div>
+        <div id="distance-selection">
+            <label for="radiusInput">Distance[km]</label>
+            <input type="number" value="1000" min="0" id="radius-input" name="radiusInput" autofocus="">
+        </div>
+    </div>
+
+</div>
+
+<div id="map"></div>
+
+</body>
+</html>
+

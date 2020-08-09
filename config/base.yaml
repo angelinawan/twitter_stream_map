@@ -1,0 +1,15 @@
+service:
+  port: 2038
+  debug: True
+
+elastic_search:
+  index: twitter
+  mapping_name: tweet
+  url: localhost
+  port: 9200
+
+tweepy:
+  consumer_key: <PLEASE_FILL_HERE>
+  consumer_secret: <PLEASE_FILL_HERE>
+  access_token: <PLEASE_FILL_HERE>
+  access_token_secret: <PLEASE_FILL_HERE>

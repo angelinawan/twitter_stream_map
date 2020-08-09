@@ -1,0 +1,9 @@
+service:
+  port: 2038
+  debug: True
+
+elastic_search:
+  index: twitter
+  mapping_name: tweet
+  url: localhost
+  port: 9200

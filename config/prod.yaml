@@ -1,0 +1,9 @@
+service:
+  port: 2038
+  debug: False
+
+elastic_search:
+  index: twitter
+  mapping_name: tweet
+  url: search-twittermap-es-js5vr5nuvms4jaasag4nermqbi.us-west-2.es.amazonaws.com
+  port: 9200
