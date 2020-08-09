@@ -1,5 +1,6 @@
 # TwitterMap
 http://twittmap.7bpfzbdmy8.us-west-2.elasticbeanstalk.com/
+
 Used technologies:
  - AWS Elastic Beanstalk: manage web service
  - AWS Elastic Search: Tweets info storage and search (text and geo search)
@@ -7,8 +8,7 @@ Used technologies:
  - Twitter API: get stream real-time Twitter data
  - Google Map API: render google map and show Twitter location on Map
 
-
-![demo_geo_search.png](https://github.com/angelinawan/twitter_stream_map/doc/demo_geo_search.png)
+![demo_geo_search.png](doc/demo_geo_search.png?raw=true "GeoMapDemo")
 
 # Dev Guide (Local Mac)
 1. Get TweePy access, please follow doc [here](http://docs.tweepy.org/en/latest/auth_tutorial.html). And then fill the `config/base.yaml` fields:
